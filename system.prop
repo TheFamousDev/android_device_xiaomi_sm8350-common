@@ -26,6 +26,9 @@ debug.force_no_blanking=true
 media.wfd.max_resolution=8
 ro.sf.force_hwc_brightness=1
 
+# Disable MTE Async for system server
+arm64.memtag.process.system_server=off
+
 # Dolby Vision
 persist.sys.pixelprops.netflix=true
 
