@@ -31,6 +31,9 @@ persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
 # Graphics
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=1
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
+renderthread.skia.reduceopstasksplitting=true
 
 # IMS
 persist.dbg.volte_avail_ovr=1
