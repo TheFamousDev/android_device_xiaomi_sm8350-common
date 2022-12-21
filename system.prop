@@ -34,6 +34,8 @@ debug.sf.enable_hwc_vds=1
 debug.hwui.renderer=skiagl
 debug.renderengine.backend=skiaglthreaded
 renderthread.skia.reduceopstasksplitting=true
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=20
 
 # IMS
 persist.dbg.volte_avail_ovr=1
