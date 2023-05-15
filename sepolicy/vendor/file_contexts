@@ -1,5 +1,5 @@
 # Audio
-/dev/socket/audio_hw_socket                                             u:object_r:audio_socket:s0
+/dev/socket/audio_hw_socket           u:object_r:audio_socket:s0
 /dev/elliptic(.*)?                    u:object_r:sound_device:s0
 /dev/mius(.*)?                        u:object_r:sound_device:s0
 
@@ -89,7 +89,7 @@
 /vendor/bin/hw/vendor\.lineage\.touch@1\.0-service\.xiaomi_sm8350                                 u:object_r:hal_lineage_touch_default_exec:s0
 
 # Vibrator
-/vendor/bin/hw/vendor\.qti\.hardware\.vibrator\.service\.xiaomi_sm8350                            u:object_r:hal_vibrator_default_exec:s0
+/vendor/bin/hw/vendor\.qti\.hardware\.vibrator\.service\.xiaomi                                         u:object_r:hal_vibrator_default_exec:s0
 
 # Xiaomi MAC
 /vendor/bin/nv_mac                             u:object_r:vendor_wcnss_service_exec:s0
