@@ -91,3 +91,6 @@ persist.vendor.sensors.enable.mag_filter=true
 # Radio VoNR Calling
 persist.radio.is_vonr_enabled_0=true
 persist.radio.is_vonr_enabled_1=true
+
+# Zygote
+ro.zygote.disable_gl_preload=false
