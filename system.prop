@@ -38,6 +38,7 @@ persist.wm.enable_remote_keyguard_animation=0
 # LMK
 ro.config.low_ram=false
 ro.lmk.kill_heaviest_task=true
+ro.lmk.kill_timeout_ms=50
 
 # Log
 persist.log.tag.ACDB-LOADER=S
