@@ -54,6 +54,7 @@ vendor.audio.adm.buffering.ms=6
 vendor.audio.dolby.ds2.enabled=true
 vendor.audio.dolby.ds2.hardbypass=false
 ro.vendor.audio.dolby.vision.support=true
+debug.config.media.video.dolby_vision_suports=true
 vendor.audio.enable.mirrorlink=false
 vendor.audio.feature.a2dp_offload.enable=true
 vendor.audio.feature.afe_proxy.enable=true
