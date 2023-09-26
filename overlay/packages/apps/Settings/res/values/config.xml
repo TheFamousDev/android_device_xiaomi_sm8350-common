@@ -61,7 +61,4 @@
 
     <!-- Whether to enable Lineage Fast Charge Preference -->
     <bool name="config_lineageFastChargeSupported">true</bool>
-
-    <!-- Bliss Maintainer -->
-    <string name="bliss_maintainer">0mar99</string>
 </resources>
