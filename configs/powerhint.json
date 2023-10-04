@@ -5,7 +5,8 @@
       "Path": "/sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq",
       "Values": [
         "9999999",
-        "1612800"
+        "1612800",
+	"1209600"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": true
@@ -14,7 +15,7 @@
       "Name": "CPULittleClusterMinFreq",
       "Path": "/sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq",
       "Values": [
-        "9999999",
+        "806400",
         "691200"
       ],
       "ResetOnInit": true
@@ -42,6 +43,8 @@
       "Path": "/sys/devices/system/cpu/cpu4/cpufreq/scaling_max_freq",
       "Values": [
         "9999999",
+	"1881600",
+	"1555200",
         "1324800"
       ],
       "DefaultIndex": 0,
@@ -51,7 +54,7 @@
       "Name": "CPUBigClusterMinFreq",
       "Path": "/sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq",
       "Values": [
-        "9999999",
+        "1075200",
         "710400"
       ],
       "ResetOnInit": true
