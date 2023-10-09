@@ -54,7 +54,8 @@
       "Name": "CPUBigClusterMinFreq",
       "Path": "/sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq",
       "Values": [
-        "1075200",
+        "9999999",
+        "1881600",
         "710400"
       ],
       "ResetOnInit": true
@@ -287,6 +288,12 @@
       "Node": "UclampTALatency",
       "Duration": 1000,
       "Value": "1"
+    },
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "CPUBigClusterMinFreq",
+      "Duration": 1000,
+      "Value": "1881600"
     },
     {
       "PowerHint": "INTERACTION",
