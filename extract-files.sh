@@ -86,12 +86,6 @@ function blob_fixup() {
         vendor/etc/msm_irqbalance.conf)
             sed -i "s/IGNORED_IRQ=27,23,38$/&,115,332/" "${2}"
             ;;
-        vendor/lib64/libwvhidl.so)
-            "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
-            ;;
-        vendor/lib64/mediadrm/libwvdrmengine.so)
-            "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
-            ;;
         vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so)
             hexdump -ve '1/1 "%.2X"' "${2}" | sed "s/8D0A0094AE1640F9/1F2003D5AE1640F9/g" | xxd -r -p > "${EXTRACT_TMP_DIR}/${1##*/}"
             mv "${EXTRACT_TMP_DIR}/${1##*/}" "${2}"
