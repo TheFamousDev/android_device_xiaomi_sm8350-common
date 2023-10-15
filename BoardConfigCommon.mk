@@ -110,7 +110,6 @@ BOARD_KERNEL_CMDLINE += iptable_raw.raw_before_defrag=1
 BOARD_KERNEL_CMDLINE += ip6table_raw.raw_before_defrag=1
 BOARD_KERNEL_CMDLINE += firmware_class.path=/vendor/firmware
 BOARD_KERNEL_CMDLINE += kpti=off
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # LiveDisplay
 ifneq ("$(wildcard hardware/lineage/livedisplay)", "")
