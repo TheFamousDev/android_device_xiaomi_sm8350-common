@@ -50,7 +50,6 @@ persist.log.tag.CHIUSECASE=S
 persist.log.tag.FastChargingPreferenceController=S
 persist.log.tag.ResourcesCompat=S
 persist.log.tag.SYNX-UMD=S
-persist.log.tag.vendor.qti.bluetooth@1.0-ibs_handler=S
 
 # Logs
 persist.log.tag.AnalyticsService=S
