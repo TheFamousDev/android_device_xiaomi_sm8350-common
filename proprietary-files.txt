@@ -138,44 +138,6 @@ vendor/bin/diag-router
 vendor/etc/init/vendor.qti.diag.rc
 vendor/lib64/vendor.qti.diaghal@1.0.so
 
-# Dolby MiSound (MiDirac)
-vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libaudiopreprocessing.so
-vendor/lib/soundfx/libbundlewrapper.so
-vendor/lib/soundfx/libdownmix.so
-vendor/lib/soundfx/libdynproc.so
-vendor/lib/soundfx/libeffectproxy.so
-vendor/lib/soundfx/libldnhncr.so
-vendor/lib/soundfx/libmisoundfx.so
-vendor/lib/soundfx/libqcbassboost.so
-vendor/lib/soundfx/libqcompostprocbundle.so
-vendor/lib/soundfx/libqcomvisualizer.so
-vendor/lib/soundfx/libqcomvoiceprocessing.so
-vendor/lib/soundfx/libqcreverb.so
-vendor/lib/soundfx/libqcvirt.so
-vendor/lib/soundfx/libreverbwrapper.so
-vendor/lib/soundfx/libshoebox.so
-vendor/lib/soundfx/libvisualizer.so
-vendor/lib/soundfx/libvolumelistener.so
-vendor/lib64/soundfx/libasphere.so
-vendor/lib64/soundfx/libaudiopreprocessing.so
-vendor/lib64/soundfx/libbundlewrapper.so
-vendor/lib64/soundfx/libdownmix.so
-vendor/lib64/soundfx/libdynproc.so
-vendor/lib64/soundfx/libeffectproxy.so
-vendor/lib64/soundfx/libldnhncr.so
-vendor/lib64/soundfx/libmisoundfx.so
-vendor/lib64/soundfx/libqcbassboost.so
-vendor/lib64/soundfx/libqcompostprocbundle.so
-vendor/lib64/soundfx/libqcomvisualizer.so
-vendor/lib64/soundfx/libqcomvoiceprocessing.so
-vendor/lib64/soundfx/libqcreverb.so
-vendor/lib64/soundfx/libqcvirt.so
-vendor/lib64/soundfx/libreverbwrapper.so
-vendor/lib64/soundfx/libshoebox.so
-vendor/lib64/soundfx/libvisualizer.so
-vendor/lib64/soundfx/libvolumelistener.so
-
 # Display - from XQ-BC72 61.2.A.0.410
 vendor/etc/display/DPU660.xml|b26dd73e361546d89bf3d7082a471703dc6ac2cb
 vendor/etc/display/DPU670.xml|e5131a60ceff29ca5eb561eec7eddadef1d0486f
